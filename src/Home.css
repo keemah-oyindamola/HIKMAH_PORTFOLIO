@@ -14,7 +14,8 @@
   max-width: 1200px;
   width: 100%;
   gap: 30px;
-  flex-wrap: wrap; /* makes it responsive */
+  flex-wrap: wrap;
+  /* makes it responsive */
 }
 
 .home-text {
@@ -98,24 +99,62 @@
 }
 
 
-@media only screen and (min-width: 549px) and (max-width: 825px){
-    /* .home-text{
+@media only screen and (min-width: 549px) and (max-width: 825px) {
+
+  /* .home-text{
         max-width: 300px;
         justify-content: center;
     } */
-     .home-image img{
-        max-width: 100%;
-     }
-     .home-container{
-        gap: 30px;
-     }
+  .home-image img {
+    max-width: 100%;
+  }
+
+  .home-container {
+    gap: 30px;
+  }
 }
-@media only screen and (max-width: 385px){
-    .home-image img{
-        max-width: 290px;
-        margin-right: 30px;
-    }
+
+@media only screen and (max-width: 409px) {
+  .home-image img {
+    max-width: 290px;
+    margin-right: 100px;
+  }
+  .home-image{
+    min-width: 140px;
+  }
+
+  .home-text {
+    min-width: 200px;
+
+  }
+
+  .home-text h1 {
+    font-size: 1.5rem;
+    padding-top: 15px;
+  }
+
+  .home-text h2 {
+    font-size: 1.2rem;
+  }
+
+  .home-text p {
+    font-size: 1rem;
+  }
+
+  .home-buttons {
+    gap: 8px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    padding: 8px 10px;
+  }
+
+  .home-container {
+    max-width: 900px;
+  }
 }
+
 @media only screen and (min-width: 1286px) {
   .home-container {
     gap: 400px;

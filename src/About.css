@@ -61,8 +61,17 @@
     .about-container {
         flex-direction: column;
         text-align: center;
+        max-width: 650px;
     }
-
+    .about{
+        padding: 60px 0px;
+    }
+    .about-image{
+        min-width: 200px;
+    }
+    .about-image img{
+        max-width: 300px;
+    }
     .about-text {
         min-width: 100%;
     }
