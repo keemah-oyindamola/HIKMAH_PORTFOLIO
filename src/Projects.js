@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import secproject from "./trendy.jpeg"
+import thirdproj from "./udemy.jpeg"
 
 const Projects = () => {
   return (
@@ -14,7 +15,7 @@ const Projects = () => {
         <div className="projects-grid">
           {/* Udemy Clone */}
           <div className="project-card">
-            <img src="https://via.placeholder.com/400x250" alt="Udemy Clone" />
+            <img src={thirdproj} alt="Udemy Clone" />
             <h3>Udemy Clone</h3>
             <p>
               A Udemy-like learning platform built with React, Node.js, and
@@ -22,7 +23,7 @@ const Projects = () => {
               streaming.
             </p>
             <a
-              href="https://your-udemy-clone-link.com"
+              href="https://e-learning-app-nine-ashen.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"

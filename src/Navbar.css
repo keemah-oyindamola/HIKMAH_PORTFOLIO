@@ -1,9 +1,9 @@
 /* Navbar Container */
 .navbar {
   background: #ffffff;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: fixed;
-  width: 100%;
+  width: 100%;  /* full width always */
   top: 0;
   left: 0;
   z-index: 1000;
@@ -62,7 +62,7 @@
     width: 200px;
     padding: 20px;
     gap: 15px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     display: none;
   }
 
@@ -73,5 +73,9 @@
   .nav-toggle {
     display: block;
     color: #333;
+  }
+
+  .nav-container {
+    max-width: 100%;   /* prevent shrinking */
   }
 }
